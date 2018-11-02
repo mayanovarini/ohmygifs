@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #43cfec;
+  height: 10rem;
+  font-family: monospace;
+  color: white;
+  font-size: 5rem;
+  word-spacing: -50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* SearchBar */
+.SearchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+  background-color: #ffdd09;
+}
+
+.SearchBar input {
+  width: 21rem;
+  padding: .66rem 1rem;
+  margin-right: 2.22rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.SearchBar-submit {
+  border-radius: 4px;
+  padding: .72rem 1.7rem;
+  background-color: #43cfec;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* GifHome - the single gif displayed on page load */
+
+.GifHome {
+  margin: 3em;
+}
+
+/* GifList */
+
+.GifList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4.4rem 10%;
+}
+
+.Gif {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 .5rem 2.3rem .5rem;
+
+}
+
+/* Pagination */
+
+.Pagination {
+  margin: 2em;
+  margin-bottom: 200px;
+}
+
+.Pagination button {
+  border-radius: 4px;
+  border-color: none;
+  padding: .72rem 1.7rem;
+  font-size: 20px;
+  color: white;
+  margin: 1em;
+}
+
+.Pagination .Next {
+  background-color: #43cfec;
+}
+
+.Pagination .Previous {
+  background-color: #ffdd09;
+}
+
+/* Footer */
+.Footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: .3em 1em 1em 1em;
+  color: white;
+  font-size: 1em;
+  background-color: #43cfec;
+}
+
+.Footer img {
+  height: 2.5em;
+}
+
+.Footer h3 span {
+  color: #ffdd09;
+}
