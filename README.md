@@ -8,6 +8,7 @@ Access the demo here : https://ohmygifs-123.firebaseapp.com/
 
 ### Prerequisites to run locally
 
+[Skip the first step if you download it from the zipped project folder]
 On your local directory, clone the repo bar repository by running :
 
 ```
@@ -34,11 +35,15 @@ npm build
 
 ### Technical Rationale
 
-- I use ReactJS to modularize every element as a component, for more control over the DOM.
+- I use ReactJS to modularize every element as a component or
+functional component when there is no state stored in the file.
 
-- For maintainability of an app this small, the state and methods are centralized in App.js.
+- For simplicity and maintainability of an app this small,
+the state and methods are centralized in App.js
+(there was no complex state synchronization between multiple components which is the problem that Redux solves)
 
-- I deployed the application to Firebase, as it provides easy deployment and less error-prone compared to Heroku (only appropriate for tiny projects though).
+- I deployed the application to Firebase,
+as it provides easy deployment compared to Heroku (only appropriate for tiny projects though).
 
 
 ## Built With
