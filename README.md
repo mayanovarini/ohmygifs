@@ -1,4 +1,4 @@
-# React Project For Gingerlabs
+# React Project
 
 An application to display Giphy data, built with ReactJS.
 
